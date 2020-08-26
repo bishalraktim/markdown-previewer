@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Quotation from './components/Quotation/Quotation';
+import Editor from './components/Editor/Editor';
 
 class App extends Component {
 
-  render () {
-    return (
+  render(){
+    return(
       <div>
-        <Quotation />
+        <Editor />
       </div>
     );
   }

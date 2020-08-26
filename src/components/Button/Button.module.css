@@ -1,0 +1,74 @@
+.Button {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.display {
+  display: flex;
+  background-color: #4aa3a3;
+  justify-content: space-between;
+  margin: auto;
+  border: 1px solid black;
+  border-bottom: none;
+  padding: 4px 0;
+  width: 48.7%;
+}
+
+.displayMax {
+  display: flex;
+  background-color: #4aa3a3;
+  justify-content: space-between;
+  margin: auto;
+  border: 1px solid black;
+  border-bottom: none;
+  padding: 4px 0;
+  width: 100%;
+}
+
+@media (max-width: 516px) {
+  .maxDisplay {
+    width: 100%;
+  }
+}
+
+@media (max-width: 393px) {
+  .maxDisplay {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .maxDisplay {
+    width: 100%;
+  }
+}
+
+@media (max-width: 346px) {
+  .maxDisplay {
+    width: 100%;
+  }
+}
+
+@media (max-width: 756px) {
+  .display {
+    width: 48.8%;
+  }
+}
+
+@media (max-width: 636px) {
+  .display {
+    width: 48.9%;
+  }
+}
+
+@media (max-width: 458px) {
+  .display {
+    width: 49.2%;
+  }
+}
+
+@media (max-width: 319px) {
+  .display {
+    width: 49.5%;
+  }
+}
